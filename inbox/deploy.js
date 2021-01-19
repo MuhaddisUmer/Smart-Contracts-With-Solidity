@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'hero decorate category nice file melt trick original multiply chef reveal gain',
-    'https://rinkeby.infura.io/v3/78eeb7ec695a43d1ac0f757b99833409'
+  'Mnenomics',
+  'link of rinkeby infura'
 );
 
 const web3 = new Web3(provider);
